@@ -1,0 +1,19 @@
+Source: bundleservice
+Section: web
+Priority: extra
+Maintainer: Juju GUI Team <juju-gui@lists.launchpad.net>
+Build-Depends: debhelper (>= 7.0.50~),
+               gccgo-go [!amd64 !i386 !armhf],
+               golang-go (>= 2:1.2) [amd64 i386 armhf],
+               lsb-release,
+               build-essential,
+               devscripts,
+               debhelper,
+Standards-Version: 3.9.5
+Homepage: https://github.com/juju/bundleservice
+Vcs-Git: https://github.com/juju/bundleservice.git
+Vcs-Browser: https://github.com/juju/bundleservice
+
+Package: bundleservice
+Architecture: any
+Description: A simple microservice exposing bundlechanges functionality as an API.
