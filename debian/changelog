@@ -1,3 +1,9 @@
+bundleservice (0.0.0-3) UNRELEASED; urgency=low
+
+  * remove reliance on config file until supported
+
+ -- Madison Scott-Clary <makyo@corrin>  Thu, 25 Aug 2016 15:20:05 -0600
+
 bundleservice (0.0.0-1) trusty; urgency=low
 
   * unreleased dev version

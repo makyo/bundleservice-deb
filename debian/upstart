@@ -8,7 +8,5 @@ setuid bundleservice
 setgid bundleservice
 
 script
-    if [ -r /etc/bundleservice/config.yaml ]; then
-        exec bundleservice /etc/bundleservice/config.yaml
-    fi
+    exec bundleservice
 end script
