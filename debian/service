@@ -6,4 +6,4 @@ Type=simple
 Restart=on-failure
 User=bundleservice
 Group=bundleservice
-ExecStart=/usr/bin/bundleservice /etc/bundleservice/config.yaml
+ExecStart=/usr/bin/bundleservice
