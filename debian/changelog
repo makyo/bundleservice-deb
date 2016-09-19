@@ -1,3 +1,15 @@
+bundleservice (0.1.1) trusty; urgency=medium
+
+  * Fix config bug after missing merge applied
+
+ -- Madison Scott-Clary <madison.scott-clary@canonical.com>  Wed, 14 Sep 2016 17:30:29 +0000
+
+bundleservice (0.1.0) trusty; urgency=medium
+
+  * Initial release 
+
+ -- Madison Scott-Clary <madison.scott-clary@canonical.com>  Wed, 14 Sep 2016 17:17:35 +0000
+
 bundleservice (0.0.0-3) trusty; urgency=low
 
   * remove reliance on config file until supported
